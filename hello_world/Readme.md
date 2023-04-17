@@ -27,3 +27,12 @@ cargo run
 ```
 
 cargo run can compile and run the project, providing a more convenience way
+
+## Other cargo command
+```
+# check cargo version
+cargo --version
+
+# check project before build
+cargo check
+```
