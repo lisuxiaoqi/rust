@@ -1,6 +1,6 @@
 ## Create Project
 ```
-Cargo build hello_world
+Cargo init hello_world
 ```
 this will create hello_world folder
 * src/ 

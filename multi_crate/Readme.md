@@ -6,5 +6,5 @@
 ## 注意事项
 1. mylib是独立的project，不受multi_crate/Cargo.toml控制
 2. server受multi_crate/Cargo.toml控制，不受server/Cargo.toml控制。
-   server/Cargo.toml是编译器生成的，无用可删除。
+   server/Cargo.toml是编译器生成的，可删除。
 3. client是独立的project，不受multi_crate/Cargo.toml控制
