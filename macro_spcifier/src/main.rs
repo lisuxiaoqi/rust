@@ -1,5 +1,5 @@
-mod ident;
+mod lifetime;
 
 fn main() {
-    ident::ident_test();
+    lifetime::test_life_macro();
 }
