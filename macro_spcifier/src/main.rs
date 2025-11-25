@@ -1,4 +1,5 @@
-mod stmt;
+mod ident;
+
 fn main() {
-    stmt::stmt_test();
+    ident::ident_test();
 }
