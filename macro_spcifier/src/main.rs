@@ -1,6 +1,4 @@
-mod block;
-
+mod item;
 fn main() {
-    //block::block_wrapper_test();
-    //block::block_exec_test();
+    item::item_test();
 }
