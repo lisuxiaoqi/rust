@@ -1,5 +1,5 @@
-mod ty;
+mod vis;
 
 fn main() {
-    ty::test_macro();
+    vis::test_macro();
 }
