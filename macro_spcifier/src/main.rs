@@ -1,5 +1,5 @@
-mod path;
+mod ty;
 
 fn main() {
-    path::test_macro();
+    ty::test_macro();
 }
