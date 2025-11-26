@@ -1,5 +1,5 @@
-mod lifetime;
+mod literal;
 
 fn main() {
-    lifetime::test_life_macro();
+    literal::test_literal_macro();
 }
