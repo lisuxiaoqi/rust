@@ -1,5 +1,5 @@
-mod pat_param;
+mod path;
 
 fn main() {
-    pat_param::test_macro();
+    path::test_macro();
 }
