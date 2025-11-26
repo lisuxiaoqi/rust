@@ -1,5 +1,5 @@
-mod literal;
+mod meta;
 
 fn main() {
-    literal::test_literal_macro();
+    meta::test_meta();
 }
