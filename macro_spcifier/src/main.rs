@@ -1,5 +1,5 @@
-mod meta;
+mod pat;
 
 fn main() {
-    meta::test_meta();
+    pat::test_pat();
 }
