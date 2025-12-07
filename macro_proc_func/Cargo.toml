@@ -1,0 +1,16 @@
+[package]
+name = "macro_proc_func"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro=true
+
+[[test]]
+name="builder"
+path="tests/builder.rs"
+
+[dependencies]
+quote = "1.0.42"
+syn = "2.0.111"
+trybuild = "1.0.114"

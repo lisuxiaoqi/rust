@@ -1,0 +1,7 @@
+error: proc macro panicked
+ --> tests/fail.rs:4:13
+  |
+4 |     let _ = add!();
+  |             ^^^^^^
+  |
+  = help: message: At least one arg is required, boy!
