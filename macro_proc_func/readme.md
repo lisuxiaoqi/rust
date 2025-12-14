@@ -3,6 +3,11 @@
 Cargo test --test builder
 ```
 
+## expand
+```
+cargo expand --test pass
+```
+
 ## Notice
 1. 使用了trybuild
 2. trybuild使用了pass和compile_fail

@@ -1,0 +1,5 @@
+error: Expected exactly two params
+ --> tests/fail.rs:3:24
+  |
+3 |     let out = mul!(3, 5, 7);
+  |                        ^

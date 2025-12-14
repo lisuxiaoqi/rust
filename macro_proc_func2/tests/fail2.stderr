@@ -1,0 +1,5 @@
+error: Only [,] is qualified delimiter
+ --> tests/fail2.rs:3:21
+  |
+3 |     let out = mul!(3; 5);
+  |                     ^
