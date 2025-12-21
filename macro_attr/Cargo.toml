@@ -1,0 +1,16 @@
+[package]
+name = "macro_attr"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[[test]]
+name="entry"
+path="tests/entry.rs"
+
+[dependencies]
+quote = "1.0.42"
+syn = {version="2.0.111", features=["full"]}
+trybuild = "1.0.114"
