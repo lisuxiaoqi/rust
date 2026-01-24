@@ -1,6 +1,7 @@
 use proc_macro::TokenStream;
 use quote::{quote, ToTokens};
 use syn::{parse_macro_input, Block, FnArg, ItemFn, LitStr, Pat, PatIdent};
+mod recur;
 
 #[proc_macro_attribute]
 pub fn log_call(attr: TokenStream, input: TokenStream) -> TokenStream {
@@ -90,4 +91,9 @@ pub fn log_call(attr: TokenStream, input: TokenStream) -> TokenStream {
         }
     }
     .into()
+}
+
+#[proc_macro_attribute]
+pub fn recur(attr: TokenStream, input: TokenStream) -> TokenStream {
+    recur::recur_call(attr, input)
 }
