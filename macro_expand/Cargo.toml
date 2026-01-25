@@ -1,0 +1,13 @@
+[workspace.package]
+name = "macro_expand"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+resolver = "2"
+members=["proc", "pallet", "runtime"]
+
+[workspace.dependencies]
+proc-support={path="proc"}
+pallet={path="pallet"}
+tt-call = "1.0.9"

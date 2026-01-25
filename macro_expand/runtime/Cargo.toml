@@ -1,0 +1,9 @@
+[package]
+name = "runtime"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+proc-support={workspace=true}
+pallet={workspace=true}
+tt-call = {workspace=true}
